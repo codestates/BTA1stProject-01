@@ -17,7 +17,7 @@ const Home = () => {
                 <Button onClick={() => goTo(WALLET_AUTH)}>
                     create wallet
                 </Button>
-                <Button onClick={() => goTo(RECOVERY)}>
+               <Button onClick={() => goTo(WALLET_AUTH, { recover: true })}>
                     recovery wallet
                 </Button>
             </BtnContainer>
