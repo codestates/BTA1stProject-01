@@ -1,5 +1,7 @@
 # BTA1stProject-01
 
+https://www.notion.so/Stacks-Wallet-1f1c1194545a4d7faf94a9b2f88127e2
+
 *    - 사용법
         - npm install 
         - npm run build
