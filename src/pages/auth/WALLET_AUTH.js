@@ -8,7 +8,7 @@ const WALLET_AUTH = () => {
     return(
         <Container>
         <Header title = "Make your password"/>
-        <InputPassword /> 
+         <InputPassword recover={recover}/> 
         {/* <CREATE_MNEM /> */}
         </Container>
     )
