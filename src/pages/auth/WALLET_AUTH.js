@@ -4,7 +4,7 @@ import InputPassword from "../../components/create/InputPassword";
 import CREATE_MNEM from "./CREATE_MNEM";
 import styled from 'styled-components';
 
-const WALLET_AUTH = () => {
+const WALLET_AUTH = ({recover = false}) => {
     return(
         <Container>
         <Header title = "Make your password"/>
