@@ -6,10 +6,11 @@ import {
     goTo
 } from 'react-chrome-extension-router';
 import CreateMnem from '../../pages/auth/CREATE_MNEM';
+import RECOVERY from '../../pages/auth/RECOVERY';
 
 
 
-const InputPassword = () => {
+const InputPassword = ({recover}) => {
 
     const [password, setPassword] = useState('');
     const [passwordConfirm, setPasswordConfirm] = useState('');
@@ -43,7 +44,7 @@ const InputPassword = () => {
                 console.log('2');
             });
 
-            goTo(CreateMnem);
+            recover? goTo(RECOVERY) : goTo(CreateMnem);
         }
     }
     return (
