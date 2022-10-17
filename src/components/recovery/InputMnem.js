@@ -11,7 +11,7 @@ import storage from "../../utils/storage";
 import { goTo } from "react-chrome-extension-router";
 import saltedSha256 from "salted-sha256";
 import WALLET_HOME from "../../pages/home/WALLET_HOME";
-import { useRecoilValue } from "recoil";
+import { useRecoilState } from "recoil";
 import { AddressInfo } from "../../atom/atom";
 const InputMnem = () => {
   const [arrlength, setLength] = useState(12);
